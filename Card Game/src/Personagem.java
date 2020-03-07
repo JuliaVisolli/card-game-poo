@@ -23,7 +23,9 @@ public class Personagem implements Batalha {
 	}
 
 	public boolean isVivo() {
-		return vivo;
+		//return vivo;
+		
+		return (energia > 0);
 	}
 
 	public void setVivo(boolean vivo) {
@@ -32,9 +34,12 @@ public class Personagem implements Batalha {
 
 	public int recebeAtaque(int ataque, int energia) {
 		// TODO Auto-generated method stub
-		int restoEnergia = energia - ataque;
-		this.setEnergia(restoEnergia);
-		return restoEnergia;
+//		int restoEnergia = energia - ataque;
+//		this.setEnergia(restoEnergia);
+//		return restoEnergia;
+		
+		this.energia -= ataque;
+		return this.energia;
 	}
 
 	public int desfereAtaque() {

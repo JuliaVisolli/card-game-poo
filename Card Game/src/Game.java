@@ -17,7 +17,7 @@ public class Game {
 		arqueiro.setVivo(true);
 
 		Personagem dragao = new Dragao();
-		dragao.setNome("Dragão");
+		dragao.setNome("Dragï¿½o");
 		dragao.setEnergia(10);
 		dragao.setVivo(true);
 
@@ -34,7 +34,7 @@ public class Game {
 		System.out.println("Escolha o seu personagem");
 		System.out.println();
 		System.out.println("Digite 1 para Arqueiro");
-		System.out.println("Digite 2 para Dragão");
+		System.out.println("Digite 2 para Dragï¿½o");
 		System.out.println("Digite 3 para Orc do Deserto");
 		System.out.println("Digite 4 para Orc da Montanha");
 		System.out.println();
@@ -74,7 +74,7 @@ public class Game {
 		Random rand = new Random();
 		Personagem randomPersonagem = personagensAdversario.get(rand.nextInt(personagensAdversario.size()));
 
-		System.out.println("O personagem adversário: " + randomPersonagem.getNome());
+		System.out.println("O personagem adversï¿½rio: " + randomPersonagem.getNome());
 		
 		List<Personagem> personagens = new ArrayList<Personagem>();
 		personagens.add(arqueiro);
@@ -95,21 +95,26 @@ public class Game {
 			break;
 		}
 
-		int ataqueDesferidoSegundoPerson = randomPersonagem.desfereAtaque();
+		
 
-		while (randomPersonagem.getEnergia() >= 0 || primeiroPersonagemEscolhido.getEnergia() >= 0) {
-			randomPersonagem.recebeAtaque(forcaAtaque, randomPersonagem.getEnergia());
+		while (randomPersonagem.isVivo() && primeiroPersonagemEscolhido.isVivo()) {
+			int ataqueDesferidoSegundoPerson = randomPersonagem.desfereAtaque();
+			forcaAtaque = primeiroPersonagemEscolhido.desfereAtaque();
+			
+			randomPersonagem.recebeAtaque(forcaAtaque, 0);
 			System.out.println("Seu Dano: " + forcaAtaque);
-			primeiroPersonagemEscolhido.recebeAtaque(ataqueDesferidoSegundoPerson,
-					primeiroPersonagemEscolhido.getEnergia());
-			System.out.println("Dano do adversário: " + ataqueDesferidoSegundoPerson);
+			primeiroPersonagemEscolhido.recebeAtaque(ataqueDesferidoSegundoPerson, 0);
+			System.out.println("Dano do adversï¿½rio: " + ataqueDesferidoSegundoPerson);
+			
+			System.out.println("Vida personagem 1:" + randomPersonagem.getEnergia());
+			System.out.println("Vida personagem 2:" + primeiroPersonagemEscolhido.getEnergia());
 		}
 		if (randomPersonagem.getEnergia() <= 0) {
 
-			System.out.println("O vencedor é: " + primeiroPersonagemEscolhido.getNome());
+			System.out.println("O vencedor ï¿½: " + primeiroPersonagemEscolhido.getNome());
 		} else {
 
-			System.out.println("O vencedor é: " + randomPersonagem.getNome());
+			System.out.println("O vencedor ï¿½: " + randomPersonagem.getNome());
 		}
 	}
 
