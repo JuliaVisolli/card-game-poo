@@ -42,27 +42,27 @@ public class Game {
 		System.out.println();
 
 		int jogadorEscolhido = entraTeclado.nextInt();
-		Personagem primeiroPersonagemEscolhido = new Personagem();
+		Personagem personagem1 = new Personagem();
 
 		switch (jogadorEscolhido) {
 		case 1:
-			primeiroPersonagemEscolhido = arqueiro;
+			personagem1 = arqueiro;
 			break;
 		case 2:
-			primeiroPersonagemEscolhido = dragao;
+			personagem1 = dragao;
 			break;
 		case 3:
-			primeiroPersonagemEscolhido = orcDaMontanha;
+			personagem1 = orcDaMontanha;
 			break;
 		case 4:
-			primeiroPersonagemEscolhido = orcDoDeserto;
+			personagem1 = orcDoDeserto;
 			break;
 
 		default:
 			break;
 		}
 
-		System.out.println("O personagem escolhido: " + primeiroPersonagemEscolhido.getNome());
+		System.out.println("O personagem escolhido: " + personagem1.getNome());
 		System.out.println("");
 
 		List<Personagem> personagensAdversario = new ArrayList<Personagem>();
@@ -72,9 +72,9 @@ public class Game {
 		personagensAdversario.add(orcDaMontanha);
 		
 		Random rand = new Random();
-		Personagem randomPersonagem = personagensAdversario.get(rand.nextInt(personagensAdversario.size()));
+		Personagem personagem2 = personagensAdversario.get(rand.nextInt(personagensAdversario.size()));
 
-		System.out.println("O personagem advers�rio: " + randomPersonagem.getNome());
+		System.out.println("O personagem advers�rio: " + personagem2.getNome());
 		
 		List<Personagem> personagens = new ArrayList<Personagem>();
 		personagens.add(arqueiro);
@@ -88,7 +88,7 @@ public class Game {
 		int forcaAtaque = 0;
 		switch (ataqueDesferido) {
 		case 1:
-			forcaAtaque = primeiroPersonagemEscolhido.desfereAtaque();
+			forcaAtaque = personagem1.desfereAtaque();
 			break;
 
 		default:
@@ -97,24 +97,24 @@ public class Game {
 
 		
 
-		while (randomPersonagem.isVivo() && primeiroPersonagemEscolhido.isVivo()) {
-			int ataqueDesferidoSegundoPerson = randomPersonagem.desfereAtaque();
-			forcaAtaque = primeiroPersonagemEscolhido.desfereAtaque();
+		while (personagem2.isVivo() && personagem1.isVivo()) {
+			int ataqueDesferidoSegundoPerson = personagem2.desfereAtaque();
+			forcaAtaque = personagem1.desfereAtaque();
 			
-			randomPersonagem.recebeAtaque(forcaAtaque, 0);
+			personagem2.recebeAtaque(forcaAtaque, 0);
 			System.out.println("Seu Dano: " + forcaAtaque);
-			primeiroPersonagemEscolhido.recebeAtaque(ataqueDesferidoSegundoPerson, 0);
+			personagem1.recebeAtaque(ataqueDesferidoSegundoPerson, 0);
 			System.out.println("Dano do advers�rio: " + ataqueDesferidoSegundoPerson);
 			
-			System.out.println("Vida personagem 1:" + randomPersonagem.getEnergia());
-			System.out.println("Vida personagem 2:" + primeiroPersonagemEscolhido.getEnergia());
+			System.out.println("Vida personagem 1:" + personagem1.getEnergia());
+			System.out.println("Vida personagem 2:" + personagem2.getEnergia());
 		}
-		if (randomPersonagem.getEnergia() <= 0) {
+		if (personagem2.getEnergia() <= 0) {
 
-			System.out.println("O vencedor �: " + primeiroPersonagemEscolhido.getNome());
+			System.out.println("O vencedor �: " + personagem1.getNome());
 		} else {
 
-			System.out.println("O vencedor �: " + randomPersonagem.getNome());
+			System.out.println("O vencedor �: " + personagem2.getNome());
 		}
 	}
 
