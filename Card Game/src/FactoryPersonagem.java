@@ -9,7 +9,7 @@ public class FactoryPersonagem {
             return new Humano(nome, energia, vivo );
         }
            
-        if(cartasNumero == 2){
+        if(cartasNumero == 2){ 
             return new Dragoes(nome, energia, vivo );
         }
 
