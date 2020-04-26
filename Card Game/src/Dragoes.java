@@ -2,7 +2,10 @@
 public class Dragoes extends Personagem{
 	
 	
+	
+
 	public Dragoes(String nome, int energia, boolean vivo) {
+		super(nome, energia, vivo);
 		// TODO Auto-generated constructor stub
 	}
 

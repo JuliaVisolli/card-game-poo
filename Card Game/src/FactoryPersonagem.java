@@ -1,25 +1,18 @@
+import java.util.HashMap;
+import java.util.Map;
 
 public class FactoryPersonagem {
-	
 
+	public Map<Integer, Personagem> classesMap = new HashMap<Integer, Personagem>();
 
-    public Personagem getPersonagem(String nome, int energia, boolean vivo, int cartasNumero){
-    	
-        if(cartasNumero == 1){
-            return new Humano(nome, energia, vivo );
-        }
-           
-        if(cartasNumero == 2){ 
-            return new Dragoes(nome, energia, vivo );
-        }
+	public FactoryPersonagem() {
+		classesMap.put(0, new Personagem("Humano", 50, true));
+		classesMap.put(1, new Personagem("Orc", 50, true));
+		classesMap.put(2, new Personagem("Dragao", 50, true));
+	}
 
-        if(cartasNumero == 3){
-            return new Orcs(nome, energia, vivo);
-        }
+	public Personagem escolherClasse(int valor) {
+		return classesMap.get(valor);
+	}
 
-        return null;
-
-    }
 }
-
-

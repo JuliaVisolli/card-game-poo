@@ -2,7 +2,10 @@
 public class Orcs extends Personagem{
 	
 
+	
+
 	public Orcs(String nome, int energia, boolean vivo) {
+		super(nome, energia, vivo);
 		// TODO Auto-generated constructor stub
 	}
 

@@ -6,6 +6,13 @@ public class Personagem implements Batalha {
 	private int energia;
 	private boolean vivo;
 
+	public Personagem(String nome, int energia, boolean vivo) {
+		super();
+		this.nome = nome;
+		this.energia = energia;
+		this.vivo = vivo;
+	}
+
 	public String getNome() {
 		return nome;
 	}
@@ -23,8 +30,8 @@ public class Personagem implements Batalha {
 	}
 
 	public boolean isVivo() {
-		//return vivo;
-		
+		// return vivo;
+
 		return (energia > 0);
 	}
 
@@ -37,7 +44,7 @@ public class Personagem implements Batalha {
 //		int restoEnergia = energia - ataque;
 //		this.setEnergia(restoEnergia);
 //		return restoEnergia;
-		
+
 		this.energia -= ataque;
 		return this.energia;
 	}

@@ -2,7 +2,10 @@
 public class Humano extends Personagem {
 	
 	
+	
+
 	public Humano(String nome, int energia, boolean vivo) {
+		super(nome, energia, vivo);
 		// TODO Auto-generated constructor stub
 	}
 
