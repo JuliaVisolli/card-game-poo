@@ -18,10 +18,9 @@ public class Cartas implements Batalha{
 	    }
 	  
 	  
-	  public List<Personagem> getCartas(){
-		return cartas;
-		  
-	  }
+	 public List<Personagem> getCartas(){
+		 return cartas;
+	 }
 	
 	public String getNome() {
 		return nome;
@@ -42,20 +41,16 @@ public class Cartas implements Batalha{
 		this.vivo = vivo;
 	}
 
-
 	public int recebeAtaque(int ataque, int energia) {
 		this.energia -= ataque;
 		return this.energia;
 	}
-
 
 	public int desfereAtaque() {
 		Random rand = new Random();
 		int ataque = rand.nextInt(10);
 		return ataque;
 	}
-	
-	
 	
 	
 }
