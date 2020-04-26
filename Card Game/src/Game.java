@@ -12,12 +12,12 @@ public class Game {
 
 		@SuppressWarnings("resource")
 		Scanner entraTeclado = new Scanner(System.in);
-  
+
 		Personagem humano = new Humano(null, 0, false);
 		humano.setNome("Humano");
 		humano.setEnergia(50);
 		humano.setVivo(true);
-
+ 
 		Personagem dragoes = new Dragoes(null, 0, false);
 		dragoes.setNome("Dragao");
 		dragoes.setEnergia(50);
