@@ -1,4 +1,4 @@
-# card-game-poo
+# Jogo de cartas
 
 Jogo de cartas (Jogo em desenvolvimento)
 
