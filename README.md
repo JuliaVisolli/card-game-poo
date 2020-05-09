@@ -1,6 +1,6 @@
 # Jogo de cartas
 
-Jogo de cartas (Jogo em desenvolvimento)
+(Jogo em desenvolvimento)
 
 
 # Batalha
