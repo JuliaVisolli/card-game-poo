@@ -537,7 +537,7 @@ public class TestaGame {
 		 * Exibe o vencedor do jogo
 		 */
 
-		if (jogador1.mapCartas.size() > 0) {
+		if (jogador1.mapCartas.size() > 0) { 
 			System.out.println("O vencedor do jogo é " + jogador1.getNome() + ", parabens!!!!!");
 		} else {
 			System.out.println("O vencedor do jogo é " + jogador2.getNome() + ", parabens!!!!!");
