@@ -55,7 +55,7 @@ Escolha entre os 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a r
 
 # Como jogar
 
-Comece com 6 personagens, 6 armas, 6 armaduras e 6 joias, escolha uma opção em cada rodada, cada carta escolhida em cada rodada será descartada, se o seu personagem sobreviver a rodada, ele será recolocado no seu deck, podendo escolhe-lo novamente em outra rodada, mas, se sua carta morrer, ela será removida do deck, sobrando outras 5 cartas para a próxima rodada. 
+Comece com 6 personagens, 6 armas, 6 joias e 6 armaduras, escolha uma opção em cada rodada, cada carta escolhida em cada rodada será descartada, se o seu personagem sobreviver a rodada, ele será recolocado no seu deck, podendo escolhe-lo novamente em outra rodada, mas, se sua carta morrer, ela será removida do deck, sobrando outras 5 cartas para a próxima rodada. 
 
 As cartas de armas, armaduras e joias, serão equipadas no personagem desejado, fazendo com que elas saiam do deck, ficando equipada no personagem escolhido, mesmo se o personagem sobreviver a rodada, ele terá utilizado essas cartas, fazendo com que elas sejam removidas das próximas rodadas. 
 
