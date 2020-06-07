@@ -5,7 +5,7 @@ Jogo de cartas desenvolvido para a disciplina de Programação orientada a objet
 
 # Batalha
 
-Escolha entre os 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a rodada, quem tiver as melhores cartas, será o vencedor.
+Escolha entre os 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a rodada, quem tiver as melhores cartas, será o vencedor. Escolha entre as cartas aleatórias de 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a rodada, quem tiver as melhores cartas, será o vencedor. 
 
 
 # Personagens
