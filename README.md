@@ -13,7 +13,7 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 - Orc do deserto
 - Orc da montanha.
 
-  **Humano** 
+ **Humano** 
 - Sacerdote 
 - Bruxa da floresta
 - Espadachim da chama azul
