@@ -9,11 +9,11 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 
 # Personagens
 
-**Orc** 
+  **Orc** 
 - Orc do deserto
 - Orc da montanha.
 
-* Humano 
+  **Humano** 
 - Sacerdote 
 - Bruxa da floresta
 - Espadachim da chama azul
@@ -24,18 +24,18 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 - Arqueiro
 - Gigante.
 
-* Dragão 
+ **Dragão** 
 - Dragão de gelo
 - Dragão branco
 - Dragão vermelho
 - Dragão azul.
 
-* Anão 
+ **Anão** 
 - Anão da terra
 - Anão de gelo
 - Anão de fogo.
 
-* Elfo 
+ **Elfo** 
 - Fada mistica
 - Fada das águas
 - Elfo da floresta
@@ -43,7 +43,7 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 - Elfo da escuridão
 - Elfo venenoso.
 
-* Monstro 
+ **Monstro** 
 - Exodia
 - Monstro Marinho
 - Enguia das águas
