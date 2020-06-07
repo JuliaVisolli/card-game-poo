@@ -112,15 +112,13 @@ projeto -> game
 
 pacotes -> armaduras (Tipos concretos de armadura) 
 
-       armas (Tipos concretos de arma) 
+       Armas (Tipos concretos de arma) 
 
        Factory (fabricas de arma, armadura, joia, personagem) 
 
        Joias (Tipos concretos de joia) 
 
-       Modelos (Tipos abstratos de anão, arma, armadura, dragão, elfo, humano, joia, monstro,  
-
-       orc,  personagem, enum de tipos, interface de batalha) 
+       Modelos (Tipos abstratos de anão, arma, armadura, dragão, elfo, humano, joia, monstro, orc,  personagem, enum de tipos, interface        de batalha) 
 
        Personagens (Tipos concretos de personagens) 
 
