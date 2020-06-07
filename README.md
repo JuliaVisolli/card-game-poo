@@ -110,7 +110,9 @@ Estrutura projeto:
 
 projeto -> game 
 
-pacotes -> armaduras (Tipos concretos de armadura) 
+pacotes -> 
+       
+       Armaduras (Tipos concretos de armadura) 
 
        Armas (Tipos concretos de arma) 
 
