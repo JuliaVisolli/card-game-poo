@@ -93,17 +93,17 @@ Ao final de cada rodada, será mostrado o vencedor junto com a energia que sobro
 
 # Regras de negocio
 
-Cria um jogador e associa as cartas com os personagens de forma aleatória. 
+Cria um jogador e associa as cartas com os personagens de forma aleatória;
 
-Cria as joias, armaduras e armas e associa ao jogador de forma aleatória. 
+Cria as joias, armaduras e armas e associa ao jogador de forma aleatória;
 
-Se uma joia, arma ou armadura escolhida for do mesmo tipo do personagem é acrescentado no valor da energia do personagem em 20 pontos. 
+Se uma joia, arma ou armadura escolhida for do mesmo tipo do personagem é acrescentado no valor da energia do personagem em 20 pontos; 
 
-Se ambos os personagens selecionados para batalhar forem do mesmo tipo é removido 10 pontos da energia de cada personagem durante toda a batalha. (até que uma das cartas fique sem energia). 
+Se ambos os personagens selecionados para batalhar forem do mesmo tipo é removido 10 pontos da energia de cada personagem durante toda a batalha. (até que uma das cartas fique sem energia);
 
-Ao finalizar uma batalha a carta do jogador perdedor é removida do deck, assim como a joia, armadura e arma utilizada. 
+Ao finalizar uma batalha a carta do jogador perdedor é removida do deck, assim como a joia, armadura e arma utilizada;
 
-Ao finalizar uma batalha a carta do jogador vencedor retorna para o deck com a energia que finalizou a batalha. As joias, armas e armaduras utilizadas durante a batalha são descartadas. 
+Ao finalizar uma batalha a carta do jogador vencedor retorna para o deck com a energia que finalizou a batalha. As joias, armas e armaduras utilizadas durante a batalha são descartadas.
 
 
 Estrutura projeto: 
