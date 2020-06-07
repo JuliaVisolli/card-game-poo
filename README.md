@@ -12,7 +12,8 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 * Orc 
 - Orc do deserto
 - Orc da montanha.
-** Humano 
+
+* Humano 
 - Sacerdote 
 - Bruxa da floresta
 - Espadachim da chama azul
@@ -21,16 +22,19 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 - Mago negro
 - Alakazam
 - Arqueiro
-- Gigante
+- Gigante.
+
 * Dragão 
 - Dragão de gelo
 - Dragão branco
 - Dragão vermelho
-- Dragão azul
+- Dragão azul.
+
 * Anão 
 - Anão da terra
 - Anão de gelo
 - Anão de fogo.
+
 * Elfo 
 - Fada mistica
 - Fada das águas
@@ -38,6 +42,7 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 - Elfo da luz
 - Elfo da escuridão
 - Elfo venenoso.
+
 * Monstro 
 - Exodia
 - Monstro Marinho
