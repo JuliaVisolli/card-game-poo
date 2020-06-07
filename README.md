@@ -17,6 +17,35 @@ As cartas de armas, armaduras e joias, serão equipadas no personagem desejado, 
 Ao final de cada rodada, será mostrado o vencedor junto com a energia que sobrou, caso esteja vivo, aparecerá novamente no seu deck.
 
 
+# Como funciona
+
+1 - Inserir o nome; 
+
+2 - Seleção de cartas aleatórias para o player 1 e 2; 
+
+3 - Escolha de carta que será utilizada na batalha pelo player 1; 
+
+4 - Escolha da arma pelo player 1 (é acrescentado o valor do poder da arma a energia do personagem); 
+
+5 - Escolha da joia pelo player 1 (é acrescentado o valor do poder da joia a energia do personagem); 
+
+6 - Escolha da armadura pelo player 1 (é acrescentado o valor do poder da armadura a energia do personagem); 
+
+7 - Player 2 escolhe aleatoriamente suas cartas, joias, armas e armaduras; 
+
+8 - É exibido as informações das cartas que batalharam durante a rodada; 
+
+9 - Inicio da rodada; 
+
+10 - Resultado da rodada; 
+
+11 - Exibido as cartas, joias, armas e armaduras disponíveis do player 1 e do player 2; 
+
+13 - A batalha termina até que um dos jogadores fique sem cartas no deck; 
+
+14 - O vencedor do jogo é exibido; 
+
+
 # Personagens
 
   **Orc** 
@@ -118,35 +147,6 @@ Ao final de cada rodada, será mostrado o vencedor junto com a energia que sobro
 - Armadura da justiça
 - Armadura da terra
 - Armadura do soberano.
-
-
-# Como funciona
-
-1 - Inserir o nome; 
-
-2 - Seleção de cartas aleatórias para o player 1 e 2; 
-
-3 - Escolha de carta que será utilizada na batalha pelo player 1; 
-
-4 - Escolha da arma pelo player 1 (é acrescentado o valor do poder da arma a energia do personagem); 
-
-5 - Escolha da joia pelo player 1 (é acrescentado o valor do poder da joia a energia do personagem); 
-
-6 - Escolha da armadura pelo player 1 (é acrescentado o valor do poder da armadura a energia do personagem); 
-
-7 - Player 2 escolhe aleatoriamente suas cartas, joias, armas e armaduras; 
-
-8 - É exibido as informações das cartas que batalharam durante a rodada; 
-
-9 - Inicio da rodada; 
-
-10 - Resultado da rodada; 
-
-11 - Exibido as cartas, joias, armas e armaduras disponíveis do player 1 e do player 2; 
-
-13 - A batalha termina até que um dos jogadores fique sem cartas no deck; 
-
-14 - O vencedor do jogo é exibido; 
 
 
 # Regras de negocio
