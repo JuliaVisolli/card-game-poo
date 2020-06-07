@@ -1,6 +1,6 @@
 # Jogo de cartas
 
-Jogo de cartas desenvolvido para disciplina de Programação orientada a objetos - Senac - SP 
+Jogo de cartas desenvolvido para a disciplina de Programação orientada a objetos - Senac - SP 
 
 
 # Batalha
