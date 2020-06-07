@@ -5,7 +5,7 @@ Jogo de cartas desenvolvido para a disciplina de Programação orientada a objet
 
 # Batalha
 
-Escolha entre os 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a rodada, quem tiver as melhores cartas, será o vencedor. Escolha entre as cartas aleatórias de 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a rodada, quem tiver as melhores cartas, será o vencedor. 
+Escolha entre as cartas aleatórias de 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a rodada, a rodada começa de forma aleatória, sendo assim, quem tiver as melhores cartas, será o vencedor. 
 
 
 # Personagens
@@ -51,6 +51,64 @@ Escolha entre os 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a r
 - Rei caveira
 - Monstro de pedra
 - Guardião das águas.
+
+
+# Armas
+
+- Arma guardiã
+- Arma das feras
+- Arma espiritual
+- Arma protetora
+- Arma do soberano
+- Arma magica
+- Arma vendaval
+- Arma de fogo
+- Arma de sangue
+- Arma do espadachim
+- Arma da justiça
+- Arma do caçador
+- Arma treme terra
+- Arma de terra
+- Arma do purgatorio
+- Arma de gelo
+- Arma de lava
+- Arma do guerreiro
+- Arma de água
+- Arma de força.
+
+
+# Joias
+
+- Joia da terra
+- Joia de ar
+- Joia de magia
+- Joia de água
+- Joia de fogo
+- Joia de força.
+
+
+# Armaduras
+
+- Armadura pesada
+- Armadura espadachim 
+- Armadura do caçador 
+- Armadura magica
+- Armadura de fogo
+- Armadura estaca de sangue
+- Armadura protetora
+- Armadura do guardião
+- Armadura do espirito
+- Armadura de gelo
+- Armadura do barbaro
+- Armadura de lava
+- Armadura do purgatorio
+- Armadura senhor das feras
+- Armadura de água
+- Armadura treme terra
+- Armadura do duque
+- Armadura da justiça
+- Armadura da terra
+- Armadura do soberano.
 
 
 # Como jogar
