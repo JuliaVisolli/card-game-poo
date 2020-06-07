@@ -359,7 +359,7 @@ public class TestaGame {
 
 			if (escolheJogador1 > escolheJogador2) {
 				int ataqueDesferido1 = cartaEscolhida.desfereAtaque();
-				System.out.println("Quem desfere o primeiro ataque eh " + jogador1.getNome());
+				System.out.println("Quem desfere o primeiro ataque é " + jogador1.getNome());
 				TemplateJogo.quebraDeLinha();
 
 				/*
@@ -379,7 +379,7 @@ public class TestaGame {
 				TemplateJogo.quebraDeLinha();
 			} else {
 				int ataqueDesferido2 = cartaEscolhida2.desfereAtaque();
-				System.out.println("Quem desfere o primeiro ataque eh " + jogador2.getNome());
+				System.out.println("Quem desfere o primeiro ataque é " + jogador2.getNome());
 				TemplateJogo.quebraDeLinha();
 
 				/*
@@ -538,9 +538,9 @@ public class TestaGame {
 		 */
 
 		if (jogador1.mapCartas.size() > 0) {
-			System.out.println("O vencedor do jogo eh " + jogador1.getNome() + ", parabens!!!!!");
+			System.out.println("O vencedor do jogo é " + jogador1.getNome() + ", parabens!!!!!");
 		} else {
-			System.out.println("O vencedor do jogo eh " + jogador2.getNome() + ", parabens!!!!!");
+			System.out.println("O vencedor do jogo é " + jogador2.getNome() + ", parabens!!!!!");
 
 		}
 
