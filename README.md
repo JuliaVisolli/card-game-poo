@@ -9,7 +9,7 @@ Escolha seu Deck de cartas e lute contra o inimigo.
 
 # Personagens
 
-*_Orc_ 
+**Orc** 
 - Orc do deserto
 - Orc da montanha.
 
