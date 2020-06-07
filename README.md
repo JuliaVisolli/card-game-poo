@@ -8,6 +8,15 @@ Jogo de cartas desenvolvido para a disciplina de Programação orientada a objet
 Escolha entre as cartas aleatórias de 6 personagens, 6 armas, 6 joias e 6 armaduras para começar a rodada, a rodada começa de forma aleatória, sendo assim, quem tiver as melhores cartas, será o vencedor. 
 
 
+# Como jogar
+
+Comece com 6 personagens, 6 armas, 6 joias e 6 armaduras, escolha uma opção em cada rodada, cada carta escolhida em cada rodada será descartada, se o seu personagem sobreviver a rodada, ele será recolocado no seu deck, podendo escolhe-lo novamente em outra rodada, mas, se sua carta morrer, ela será removida do deck, sobrando outras 5 cartas para a próxima rodada. 
+
+As cartas de armas, armaduras e joias, serão equipadas no personagem desejado, fazendo com que elas saiam do deck, ficando equipada no personagem escolhido, mesmo se o personagem sobreviver a rodada, ele terá utilizado essas cartas, fazendo com que elas sejam removidas das próximas rodadas. 
+
+Ao final de cada rodada, será mostrado o vencedor junto com a energia que sobrou, caso esteja vivo, aparecerá novamente no seu deck.
+
+
 # Personagens
 
   **Orc** 
@@ -109,15 +118,6 @@ Escolha entre as cartas aleatórias de 6 personagens, 6 armas, 6 joias e 6 armad
 - Armadura da justiça
 - Armadura da terra
 - Armadura do soberano.
-
-
-# Como jogar
-
-Comece com 6 personagens, 6 armas, 6 joias e 6 armaduras, escolha uma opção em cada rodada, cada carta escolhida em cada rodada será descartada, se o seu personagem sobreviver a rodada, ele será recolocado no seu deck, podendo escolhe-lo novamente em outra rodada, mas, se sua carta morrer, ela será removida do deck, sobrando outras 5 cartas para a próxima rodada. 
-
-As cartas de armas, armaduras e joias, serão equipadas no personagem desejado, fazendo com que elas saiam do deck, ficando equipada no personagem escolhido, mesmo se o personagem sobreviver a rodada, ele terá utilizado essas cartas, fazendo com que elas sejam removidas das próximas rodadas. 
-
-Ao final de cada rodada, será mostrado o vencedor junto com a energia que sobrou, caso esteja vivo, aparecerá novamente no seu deck.
 
 
 # Como funciona
